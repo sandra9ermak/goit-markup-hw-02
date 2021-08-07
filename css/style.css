@@ -1,0 +1,146 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* menu section */
+.styles-for-web {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo {
+  margin-left: 70px;
+}
+
+.styles-for-studio {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.pages {
+  height: 16px;
+  width: 294px;
+  left: 453px;
+  top: 32px;
+}
+
+/* service section */
+
+.service {
+  background-color: #2f303a;
+  padding: 280px 450px 280px 450px;
+}
+
+.service-header {
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  font-size: 44px;
+  line-height: 60px;
+  color: #fff;
+
+  width: 696px;
+  height: 120x;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  padding: 700px 430px 700px 200px;
+}
+
+.button-text {
+  background-color: #2196f3;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 30px;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  left: 700px;
+  top: 430px;
+}
+
+/* section of benefits */
+
+.all-the-benefits {
+  padding: 90px 200px 90px 200px;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+  border-spacing: 30px 0;
+}
+
+.benefit {
+  display: table-cell;
+  width: 270px;
+  height: 101px;
+  left: 515px;
+  top: 774px;
+}
+
+.head-of-benefits {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.text-of-benefits {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+
+/* what are we doing */
+
+.title-of-what-we-are-doing {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.img1-what-we-are-doing {
+  margin: 12px;
+}
+
+.img2-what-we-are-doing {
+  margin: 12px;
+}
+
+.img3-what-we-are-doing {
+  margin: 12px;
+}
+
+.img-what-we-are-doing {
+  margin-left: 215px;
+}
