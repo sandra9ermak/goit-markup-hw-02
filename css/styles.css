@@ -5,6 +5,21 @@
   --block-color: #2f303a;
 }
 
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 body {
   font-family: var(--main-font);
   color: #212121;
@@ -38,7 +53,12 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 .menu-contacts {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -81,9 +101,9 @@ button {
   background-color: #2196f3;
 }
 
-.button:hover,
-.button:focus {
-  color: #188ce8;
+.button-text:hover,
+.button-text:focus {
+  background-color: #188ce8;
 }
 
 /* SECTION OF BENEFITS */
@@ -157,19 +177,31 @@ button {
 }
 
 .footer-address {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1;
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
 .footer-contacts {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1;
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--accent-color);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
 }
 
 /* ============== PORTFOLIO ===================*/
@@ -186,8 +218,8 @@ button {
   background-color: #f5f4fa;
 }
 
-.button:hover,
-.button:focus {
+.portfolio-button-text:hover,
+.portfolio-button-text:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
